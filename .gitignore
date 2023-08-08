@@ -1,0 +1,13 @@
+# Ignorar arquivos gerados pelo TypeScript
+#*.js
+*.js.map
+
+# Ignorar diretório de dependências do Node.js
+node_modules/
+
+# Ignorar arquivos de configuração do VS Code
+.vscode/
+
+# Ignorar arquivos de build
+/dist/
+/out/
