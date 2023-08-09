@@ -21,7 +21,7 @@ cd calculadora-de-imc
 ```
 - Instale as dependências do projeto:
 ```
-npm install
+npm install --legacy-peer-deps
 ```
 - Instale um servidor para gerar seu **arquivo HTML**
 
