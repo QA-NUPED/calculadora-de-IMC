@@ -6,15 +6,12 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #8109f2;
-    background-image: url("../Img/Fit.webp");
-    background-repeat: no-repeat;
-    background-size: 1920PX 1080px;  /* 80 pixels de largura e 60 pixels de altura */
-    /*background-size: 300px;  /* 300 pixels de largura e altura automática */
+    background-size: 1600px;
+    background-image: url(../Img/Fit.webp);
   }
   
   .container {
-    background-color: #cac1fe;
+    background-color: rgb(183, 123, 239);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -39,7 +36,7 @@ body {
   }
   
   button {
-    background-color: #8109f2;
+    background-color: #007bff;
     color: white;
     border: none;
     padding: 10px 20px;

@@ -9,5 +9,5 @@ node_modules/
 .vscode/
 
 # Ignorar arquivos de build
-/dist/
-/out/
+#/dist/
+#/out/
