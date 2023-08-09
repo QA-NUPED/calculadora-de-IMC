@@ -6,7 +6,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-size: 1600px;
+    background-size: 100%;
     background-image: url(../Img/Fit.webp);
   }
   
