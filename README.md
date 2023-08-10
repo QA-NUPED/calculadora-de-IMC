@@ -2,6 +2,45 @@
 
 Uma simples calculadora de Índice de Massa Corporal (IMC) que permite aos usuários calcular seu IMC com base no peso e altura fornecidos. Esta calculadora é desenvolvida usando TypeScript, HTML e CSS.
 
+## Arquitetura do projeto
+
+calculadora-de-imc
+├── .vscode
+├── Img
+│   └── Fet.webp
+│
+├── coverage
+├── dist
+│   └── js
+│       └── .DS_Store
+│
+├── src
+│   ├── assets
+│   │   ├── css
+│   │   │   ├── styles.css
+│   │   │
+│   │   └── index.html
+│   │
+│   ├── calculation.ts
+│   ├── levelBMI.ts
+│   └── script.ts
+│      
+├── test
+│   ├── calculation.test.ts
+│   │
+│   └── levelBMI.test.ts
+│
+├── editorconfig
+├── .eslint.js
+├── .gitignore
+├── .prettierrc.js
+├── README.md
+├── jest.config.js
+├── package-lock.json
+├── Package.json
+├── tsconfig.frontend.json
+└── webpack.config.js
+
 ## Funcionalidades
 Calcular o IMC com base no peso e altura inseridos.
 Exibir a categoria do IMC (abaixo do peso, peso normal, sobrepeso, obesidade, obesidade grave) de acordo com o resultado do cálculo.
