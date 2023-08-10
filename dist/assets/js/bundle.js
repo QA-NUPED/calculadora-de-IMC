@@ -86,12 +86,12 @@ var exports = __webpack_exports__;
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 var calculation_1 = __webpack_require__(/*! ./calculation */ "./src/calculation.ts");
 var levelBMI_1 = __webpack_require__(/*! ./levelBMI */ "./src/levelBMI.ts");
-document.addEventListener('DOMContentLoaded', function () {
-    var calculateButton = document.getElementById('calculate');
-    var weightInput = document.getElementById('weight');
-    var heightInput = document.getElementById('height');
-    var resultDiv = document.getElementById('result');
-    calculateButton.addEventListener('click', function () {
+document.addEventListener("DOMContentLoaded", function () {
+    var calculateButton = document.getElementById("calculate");
+    var weightInput = document.getElementById("weight");
+    var heightInput = document.getElementById("height");
+    var resultDiv = document.getElementById("result");
+    calculateButton.addEventListener("click", function () {
         var weight = Number(weightInput.value);
         var height = Number(heightInput.value) / 100;
         var bmi = calculation_1.calculateBMI(weight, height);

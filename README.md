@@ -40,7 +40,7 @@ Se você quiser fazer alterações no código ou expandir o projeto, siga estas 
 1. Faça as alterações necessárias nos arquivos TypeScript (src/script.ts) e/ou no arquivo de estilo CSS (styles.css).
 2. Compile o TypeScript para JavaScript usando o seguinte comando:
 ```
-npm run build
+npx tsc
 ```
 3. Abra o arquivo index.html no navegador para testar as alterações.
 
