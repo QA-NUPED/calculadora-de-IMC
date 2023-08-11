@@ -1,4 +1,4 @@
-export function getBMICategory(bmi: number): string {
+export function getBMICategory(bmi: number) {
     const IMC = [
         "Abaixo do Peso",
         "Peso Normal",
