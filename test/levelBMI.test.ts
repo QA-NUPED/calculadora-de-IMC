@@ -1,4 +1,4 @@
-import { getBMICategory } from '../src/levelBMI'
+import { category } from '../src/levelBMI'
 
 describe("categoryBMI function", () => {
     it("returns 'Abaixo do Peso' for BMI less than 18.5", () => {
@@ -6,7 +6,7 @@ describe("categoryBMI function", () => {
         const bmi = 18;
 
       // Act  
-      const result = getBMICategory(bmi);
+      const result = category(bmi);
 
       // Assert
       expect(result).toBe("Abaixo do Peso");
@@ -17,7 +17,7 @@ describe("categoryBMI function", () => {
         const bmi = 20.5;
 
         // Act   
-        const result = getBMICategory(bmi);
+        const result = category(bmi);
 
         // Assert   
         expect(result).toBe("Peso Normal");
@@ -28,7 +28,7 @@ describe("categoryBMI function", () => {
         const bmi = 27.4;
 
         // Act   
-        const result = getBMICategory(bmi);
+        const result = category(bmi);
 
         // Assert
         expect(result).toBe("Sobrepeso");
@@ -39,7 +39,7 @@ describe("categoryBMI function", () => {
         const bmi = 31;
 
         // Act   
-        const result = getBMICategory(bmi);
+        const result = category(bmi);
 
         // Assert
         expect(result).toBe("Obeso");
