@@ -3,4 +3,4 @@ function calculateBMI(weight: number, height: number) {
     return result;
   }
 
-  export default calculateBMI
+  export const calculation = calculateBMI
