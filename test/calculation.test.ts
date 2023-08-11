@@ -1,4 +1,4 @@
-import { calculateBMI } from "../src/calculation";
+import  calculateBMI  from "../src/calculation";
 
 describe("calculateBMI function", () => {
   it("calculates BMI correctly", () => {
