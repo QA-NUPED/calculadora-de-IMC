@@ -1,4 +1,4 @@
-function getBMICategory(bmi: number) {
+export function getBMICategory(bmi: number) {
     const IMC = [ "Abaixo do Peso", "Peso Normal", "Sobrepeso"]
   
     if (bmi < 18.5) return IMC[0];
@@ -7,5 +7,3 @@ function getBMICategory(bmi: number) {
     else 
       return "Obeso";
 }
-
-export const category = getBMICategory
