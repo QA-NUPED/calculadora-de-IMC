@@ -1,4 +1,4 @@
-import { calculateBMI } from "../src/calculation";
+import { calculation } from "../src/calculation";
 
 describe("calculateBMI function", () => {
   it("calculates BMI correctly", () => {
@@ -8,7 +8,7 @@ describe("calculateBMI function", () => {
     const height = 180 / 100; // Convert cm to meters
 
     // Act 
-    const result = calculateBMI(weight, height);
+    const result = calculation(weight, height);
 
     // Assert
     expect(result).toBeCloseTo(24.69, 2);
@@ -21,7 +21,7 @@ describe("calculateBMI function", () => {
     const height = 160 / 100 // Convert cm to meters
 
     //Act 
-    const result = calculateBMI(weight, height);
+    const result = calculation(weight, height);
 
     // Assert
     expect(result).not.toBeCloseTo(24.69);
