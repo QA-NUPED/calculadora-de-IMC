@@ -1,6 +1,3 @@
-function calculateBMI(weight: number, height: number) {
-    const result = weight / (height * height);
-    return result;
+export function calculateBMI(weight: number, height: number): number {
+    return weight / (height * height);
   }
-
-  export const calculation = calculateBMI
