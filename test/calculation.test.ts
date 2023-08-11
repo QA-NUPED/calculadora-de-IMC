@@ -6,12 +6,13 @@ describe("calculateBMI function", () => {
     // Arrange 
     const weight = 80;
     const height = 1.80;
+    const expectedBMI = 24.69;
 
     // Act 
-    const result = calculateBMI(weight, height);
+    const  result = calculateBMI(weight, height);
 
     // Assert
-    expect(result).toBeCloseTo(24.69, 2);
+    expect(result).toBeCloseTo(expectedBMI, 2);
   });
 
   it("calculates BMI incorrectly", () => {
@@ -19,11 +20,12 @@ describe("calculateBMI function", () => {
     // Arrange 
     const weight = 55;
     const height = 1.60;
+    const expectedBMI = 24.69;
 
     //Act 
     const result = calculateBMI(weight, height);
 
     // Assert
-    expect(result).not.toBeCloseTo(24.69);
+    expect(result).not.toBeCloseTo(expectedBMI, 2);
   });
 });
