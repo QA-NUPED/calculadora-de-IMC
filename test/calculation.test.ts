@@ -1,7 +1,7 @@
 import { calculateBMI } from "../src/calculation/calculation";
 
 describe("calculateBMI function", () => {
-  it("calculates BMI correctly", () => {
+  it("calculateBMI correctly", () => {
 
     // Arrange 
     const weight = 80;
@@ -15,7 +15,7 @@ describe("calculateBMI function", () => {
     expect(result).toBeCloseTo(expectedBMI, 2);
   });
 
-  it("calculates BMI incorrectly", () => {
+  it("calculateBMI incorrectly", () => {
 
     // Arrange 
     const weight = 55;
