@@ -1,5 +1,3 @@
-import { error } from "jquery";
-
 export function getBMICategory(bmi: number) {
     const IMC = [ "Seu peso tem que ser um valor acima de 0", "Abaixo do Peso", "Peso Normal", "Sobrepeso", "Obeso" ]
   
