@@ -1,6 +1,6 @@
 import { calculateBMI } from "../src/calculation/calculation";
 
-const calculateNewBmi = (weight: number, height: number) => {
+const calculateNewBmi = (weight: number, height: number): number => {
   return calculateBMI(weight, height);
 }
 
