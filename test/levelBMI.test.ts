@@ -1,4 +1,3 @@
-import { error } from 'jquery';
 import { getBMICategory } from '../src/calculation/levelBMI'
 
 describe("getBMICategory function", () => {
@@ -54,11 +53,12 @@ describe("getBMICategory function", () => {
     it("returns erro", () => {
         // Arrenge   
         const bmi = -1;
+        const err = "Seu peso tem que ser um valor acima de 0";
 
         // Act  
         const result = getBMICategory(bmi);
 
         // Assert
-        expect(result).toBe(error);
+        expect(result).toBe(err);
     });
 });
