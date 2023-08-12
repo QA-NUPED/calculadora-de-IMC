@@ -1,5 +1,9 @@
 import { calculateBMI } from "../src/calculation/calculation";
 
+const calculateNewBmi = (weight: number, height: number) => {
+  return calculateBMI(weight, height);
+}
+
 describe("calculateBMI function", () => {
   it("calculateBMI correctly", () => {
 
@@ -9,7 +13,7 @@ describe("calculateBMI function", () => {
     const expectedBMI = 24.69;
 
     // Act 
-    const  result = calculateBMI(weight, height);
+    const  result = calculateNewBmi(weight, height);
 
     // Assert
     expect(result).toBeCloseTo(expectedBMI, 2);
@@ -23,7 +27,7 @@ describe("calculateBMI function", () => {
     const expectedBMI = 24.69;
 
     //Act 
-    const result = calculateBMI(weight, height);
+    const result = calculateNewBmi(weight, height);
 
     // Assert
     expect(result).not.toBeCloseTo(expectedBMI, 2);
