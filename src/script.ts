@@ -1,5 +1,5 @@
-import { calculateBMI } from './calculation';
-import { getBMICategory } from './levelBMI';
+import { calculateBMI } from '../src/calculation/calculation';
+import { getBMICategory } from '../src/calculation/levelBMI';
 
 document.addEventListener('DOMContentLoaded', () => {
   const calculateButton = document.getElementById(
