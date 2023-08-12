@@ -1,4 +1,4 @@
-import { getBMICategory } from '../src/levelBMI'
+import { getBMICategory } from '../src/calculation/levelBMI'
 
 describe("getBMICategory function", () => {
     
